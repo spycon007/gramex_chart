@@ -30,3 +30,11 @@ url:
         function: annual_comparisions.overall_satisfaction_rate
         headers:
           Content-Type: application/json
+    product_quality:
+      pattern: /product_quantity
+      handler: FunctionHandler
+      kwargs:
+        auth:true
+        function: hello.hello_world
+        headers:
+          Content-Type: application/json
